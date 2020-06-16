@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
-body {
+.container-fluid {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
 .navbar {
     background-color: #F72210;
-    /* font-family: 'Roboto Condensed', sans-serif; */
+
+}
+
+button.btn .btn-primary {
+    padding: 0 15px;
+    color: #ffffff;
+    font-size: 18px;
 }
