@@ -15,24 +15,38 @@
       integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
       crossorigin="anonymous"
     />
-
-    <title>Hello, world!</title>
+    <script
+      src="https://kit.fontawesome.com/a1405dacac.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Newsweek</title>
   </head>
 
   <body>
-    <div class="container-fluid text-white">
+    <div class="container-fluid">
       <nav
-        class="navbar sticky-top navbar-expand-xl navbar-dark d-flex justify-content-end"
+        class="row d-flex flex-nowrap justify-content-between align-items-center navbar navbar-dark"
       >
-        <a class="navbar-brand" href="#"
-          ><img src="./assets/images/logo.PNG" alt="logo"
-        /></a>
-        <button type="button" class="btn btn-lg font-weight-bolder">
-          LOGIN
-        </button>
-        <button type="button" class="btn btn-primary font-weight-bolder">
-          Warning
-        </button>
+        <div class="col">
+          <a href="#">
+            <img class="img-fluid" src="./assets/images/logo.PNG" alt="logo" />
+          </a>
+        </div>
+        <div
+          class="col d-flex flex-nowrap justify-content-end align-items-center"
+        >
+          <div>
+            <i class="fas fa-user mx-2"></i>
+          </div>
+          <button type="button" class="btn btn-primary btn-lg text-nowrap">
+            <strong>SUBSCRIVE > </strong>
+          </button>
+          <button
+            class="navbar-toggler navbar-toggler-icon"
+            aria-pressed="false"
+            type="button"
+          ></button>
+        </div>
       </nav>
     </div>
   </body>

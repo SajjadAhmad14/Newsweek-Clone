@@ -1,16 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
 
 .container-fluid {
-    font-family: 'Roboto Condensed', sans-serif;
+  font-family: "Roboto Condensed", sans-serif;
 }
 
-.navbar {
-    background-color: #F72210;
-
+.row {
+  background-color: #f72210;
 }
 
-button.btn .btn-primary {
-    padding: 0 15px;
-    color: #ffffff;
-    font-size: 18px;
+.fa-user {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.btn.btn-primary {
+  color: #000000;
+  font-size: 13px;
+  background-color: #ffe400;
+  border: none;
+  padding: 0 12px;
+  border-radius: 10px;
+  pointer-events: none;
 }
