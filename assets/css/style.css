@@ -4,7 +4,7 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.row {
+.navbar {
   background-color: #f72210;
 }
 
@@ -21,4 +21,8 @@
   padding: 0 12px;
   border-radius: 10px;
   pointer-events: none;
+}
+
+.card {
+  margin: 20px;
 }
