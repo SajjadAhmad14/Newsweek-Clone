@@ -23,6 +23,28 @@
   pointer-events: none;
 }
 
-.card {
-  margin: 20px;
+.card-top {
+  color: rgba(3, 3, 3, 0.4);
+  padding: 0 0 5px;
+  font-weight: bold;
+}
+
+.card a {
+  color: #000000;
+}
+
+.card a:hover {
+  color: #000000;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+.card .side-link {
+  position: relative;
+  bottom: 20px;
 }
