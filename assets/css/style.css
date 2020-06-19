@@ -84,8 +84,30 @@
 
 .opinion {
   color: #000000;
+  border-bottom: 1px solid rgb(197, 191, 191);
 }
 .opinion a:hover {
   color: #f92859;
+  text-decoration: none;
+}
+
+.sponsor {
+  position: absolute;
+  color: #3581f4;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 8px 15px 9px;
+  top: 150px;
+  left: 0;
+  z-index: 2;
+  font-size: 17px;
+}
+
+.more {
+  color: #000000;
+  border-top: 1px solid rgb(197, 191, 191);
+}
+
+.more a {
+  text-decoration-color: #f92859;
   text-decoration: none;
 }
