@@ -111,3 +111,13 @@
   text-decoration-color: #f92859;
   text-decoration: none;
 }
+
+.my-turn a {
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
+}
+
+.my-turn a:hover {
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
+}
