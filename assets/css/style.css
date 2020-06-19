@@ -4,6 +4,10 @@
   font-family: "Roboto Condensed", sans-serif;
 }
 
+.container {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
 .navbar {
   background-color: #f72210;
 }
@@ -29,6 +33,10 @@
   font-weight: bold;
 }
 
+.card {
+  background-color: #f4f5f7;
+}
+
 .card a {
   color: #000000;
 }
@@ -47,4 +55,37 @@
 .card .side-link {
   position: relative;
   bottom: 20px;
+}
+.debate {
+  border-top: 5px solid #f92859;
+  border-bottom: 3px double #d9d9d9;
+  padding: 10px 0 4px;
+}
+
+.debate a:hover {
+  color: #f92859;
+  text-decoration: none;
+}
+
+.debate-2 {
+  border-bottom: 5px solid #1c87fb;
+  padding: 10px 0 4px;
+}
+
+.debate-2 a:hover {
+  text-decoration: none;
+  color: #f92859;
+}
+.card-image {
+  width: 63px;
+  height: 63px;
+  padding-right: 10px;
+}
+
+.opinion {
+  color: #000000;
+}
+.opinion a:hover {
+  color: #f92859;
+  text-decoration: none;
 }
