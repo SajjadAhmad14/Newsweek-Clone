@@ -52,10 +52,13 @@
   font-size: 13px;
   padding-bottom: 10px;
 }
+
 .card .side-link {
   position: relative;
   bottom: 20px;
+  color: #f72210;
 }
+
 .debate {
   border-top: 5px solid #f92859;
   border-bottom: 3px double #d9d9d9;
@@ -76,6 +79,7 @@
   text-decoration: none;
   color: #f92859;
 }
+
 .card-image {
   width: 63px;
   height: 63px;
@@ -86,6 +90,7 @@
   color: #000000;
   border-bottom: 1px solid rgb(197, 191, 191);
 }
+
 .opinion a:hover {
   color: #f92859;
   text-decoration: none;
@@ -96,7 +101,7 @@
   color: #3581f4;
   background-color: rgba(255, 255, 255, 0.9);
   padding: 8px 15px 9px;
-  top: 150px;
+  top: 190px;
   left: 0;
   z-index: 2;
   font-size: 17px;
