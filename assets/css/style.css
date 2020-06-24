@@ -152,3 +152,24 @@
 .card-caption h3 {
   color: #f72210;
 }
+
+.btn.btn-danger {
+  width: 100px;
+  margin: 0 auto;
+  background-color: #f72210;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.fab {
+  font-size: 25px;
+  padding: 5px;
+}
+
+footer a {
+  color: #666666;
+}
+
+footer a:hover {
+  color: #000000;
+}
