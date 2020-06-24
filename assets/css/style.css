@@ -126,3 +126,29 @@
   color: rgba(3, 3, 3, 0.5);
   text-decoration: none;
 }
+
+.top-5 {
+  background-color: #f4f5f7;
+  border: 3px sild blue;
+  font-size: 19px;
+}
+
+.img-logo {
+  background-color: #f72210;
+  height: 40px;
+  width: 50px;
+}
+
+.btn.btn-secondary {
+  font-size: 30px;
+  background: #f72210;
+}
+
+.card-caption h2 {
+  background-color: #f72210;
+  color: #ffffff
+}
+
+.card-caption h3 {
+  color: #f72210;
+}
