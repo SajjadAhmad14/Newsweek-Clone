@@ -149,14 +149,17 @@ body {
   background: #f72210;
 }
 
-.card-caption h2 {
+.card-caption .f-head {
   background-color: #f72210;
-  color: #ffffff
+  color: #ffffff;
+  font-weight: bolder;
 }
 
+.card-caption .s-head,
 .card-caption h3 {
   color: #f72210;
 }
+
 
 .btn.btn-danger {
   width: 100px;
