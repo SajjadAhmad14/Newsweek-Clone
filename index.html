@@ -15,27 +15,38 @@
 
 <body>
   <header class="container-fluid">
-    <nav class="row navbar fixed-top navbar-dark d-flex justify-content-between">
-      <div class="col px-0">
+    <nav class="navbar fixed-top navbar-dark d-flex justify-content-between">
+      <div class="col-lg-4 d-none d-lg-block location">
+
+        <div><a href="#"><span>33 &#8451</span> Peshwaer, Pk</a></div>
+
+        <div>Friday, June 26, 2020</div>
+      </div>
+      <div class="col col-md col-lg-4 px-0 img-1">
         <a href="#">
           <img class="img-fluid" src="./assets/images/logo.PNG" alt="logo" />
         </a>
       </div>
-      <div class="col d-flex flex-nowrap align-items-center justify-content-end">
-        <div>
-          <i class="fas fa-user mx-2"></i>
-        </div>
-        <button type="button" class="btn btn-primary btn-lg text-nowrap">
-          <strong>SUBSCRIVE > </strong>
-        </button>
-        <button class="navbar-toggler navbar-toggler-icon" aria-pressed="false" type="button"></button>
+      <div class="col col-md col-lg-4 d-flex flex-nowrap align-items-center justify-content-end">
+        <a href="#">
+          <div class="d-lg-none">
+            <i class="fas fa-user mx-2"></i>
+          </div>
+        </a>
+        <a href="#" class="d-none d-lg-block login">LOGIN</a>
+        <a href="#"><button type="button" class="btn btn-primary btn-lg text-nowrap">
+            <strong>SUBSCRIVE ></strong>
+          </button>
+        </a>
+        <button class="navbar-toggler navbar-toggler-icon d-lg-none" aria-pressed="false" type="button"></button>
       </div>
     </nav>
+
   </header>
   <div class="container">
     <div class="row">
       <div class="row">
-        <section class="col-md-7 order-md-2">
+        <section class="col-md-7 order-md-2 d-lg-none">
           <div class="card border-light mb-3">
             <div class="card-top card-title">TOP STORY</div>
             <a href="#"><img class="card-img-top" src="./assets/images/supreme-court.jpg" /></a>
@@ -260,7 +271,7 @@
             </div>
           </section>
         </section>
-        <section class="col-md-5 order-md-1">
+        <section class="col-md-5 order-md-1 d-lg-none">
           <div class="card border-light mb-3">
             <div class="card-top card-title">FEATURED STORIES</div>
             <a href="#"><img class="card-img-top" src="./assets/images/trump.jpg" /></a>
@@ -384,7 +395,7 @@
           </div>
         </section>
       </div>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card border-light mb-3">
           <div class="card-title card-top">
             THE DEBATE
@@ -409,7 +420,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card border-light mb-3">
           <div class="card-title card-top">OPINION</div>
           <div class="pb-3 d-flex flex-nowrap justify-content-between align-items-center opinion">
@@ -464,7 +475,7 @@
           </div>
         </div>
       </section>
-      <section class="d-md-none">
+      <section class="d-md-none d-lg-none">
         <div class="card mb-3 p-0">
           <div class="sponsor">SPONSORED INSIGHT</div>
           <img class="card-img-top" src="/assets/images/stamford-american-international-school.jpg" />
@@ -514,7 +525,7 @@
           </div>
         </div>
       </section>
-      <section class="d-md-none">
+      <section class="d-md-none d-lg-none">
         <div class="card mb-3 p-0 border-light">
           <div class="card-title card-top">
             MORE STORIES
@@ -661,7 +672,7 @@
           </div>
         </div>
       </section>
-      <section class="d-md-none">
+      <section class="d-md-none d-lg-none">
         <div class="card mt-1 mb-3 p-0 border-light my-turn">
           <div class="card-title card-top">
             MY TURN
@@ -683,7 +694,7 @@
           </a>
         </div>
       </section>
-      <section class="d-md-none">
+      <section class="d-md-none d-lg-none">
         <div class="card mt-1 mb-3 p-0 border-light my-turn">
           <div class="card-title card-top">
             CULTURE & TRAVEL
@@ -704,7 +715,7 @@
           </a>
         </div>
       </section>
-      <section class="top-5 mx-3 col-md-12">
+      <section class="top-5 mx-3 col-md-12 d-lg-none">
         <div class="d-flex align-items-center justify-content-between">
           <img class="img-logo" src="./assets/images/logo-n1.svg">
           <p class="mt-2 ml-3">Willie Mays Explains Why the All-Star Game Meant So Much to His Generation
@@ -717,7 +728,7 @@
           <button type="button" class="btn btn-secondary btn-lg btn-block">FREE SIGN UP ></button>
         </form>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card mt-2 mb-3 border-light">
           <a href="#"><img class="card-img" src="./assets/images/infection-prevention-products-banner.jpg" /></a>
 
@@ -752,7 +763,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="d-flex justify-content-center">
           <img class="img-logo mr-3" src="./assets/images/logo-n1.svg">
           <h2>IN THE MAGAZINE</h2>
@@ -848,7 +859,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="d-flex justify-content-center">
           <img class="img-logo mr-3" src="./assets/images/logo-n1.svg">
           <h2>EDITOR'S PICK
@@ -856,6 +867,78 @@
         </div>
         <div class="row">
           <div class="col-md-6">
+            <div class="card mb-3">
+              <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
+              <div class="card-body p-0">
+                <a href="#">
+                  <h4 class="card-title font-weight-bold">
+                    'Heroic' Oregon Police Officer Rescues Baby From Burning Building
+                  </h4>
+                </a>
+                <div class="card-text">
+                  Astoria police officer praised for his "selfless act of bravery" on Friday, when he entered a house on
+                  fire to save a baby
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
+              <div class="card-body p-0">
+                <a href="#">
+                  <h4 class="card-title font-weight-bold">
+                    'Heroic' Oregon Police Officer Rescues Baby From Burning Building
+                  </h4>
+                </a>
+                <div class="card-text">
+                  Astoria police officer praised for his "selfless act of bravery" on Friday, when he entered a house on
+                  fire to save a baby
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
+              <div class="card-body p-0">
+                <a href="#">
+                  <h4 class="card-title font-weight-bold">
+                    'Heroic' Oregon Police Officer Rescues Baby From Burning Building
+                  </h4>
+                </a>
+                <div class="card-text">
+                  Astoria police officer praised for his "selfless act of bravery" on Friday, when he entered a house on
+                  fire to save a baby
+                </div>
+              </div>
+            </div>
+            <div class="card mb-3">
+              <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
+              <div class="card-body p-0">
+                <a href="#">
+                  <h4 class="card-title font-weight-bold">
+                    'Heroic' Oregon Police Officer Rescues Baby From Burning Building
+                  </h4>
+                </a>
+                <div class="card-text">
+                  Astoria police officer praised for his "selfless act of bravery" on Friday, when he entered a house on
+                  fire to save a baby
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
+              <div class="card-body p-0">
+                <a href="#">
+                  <h4 class="card-title font-weight-bold">
+                    'Heroic' Oregon Police Officer Rescues Baby From Burning Building
+                  </h4>
+                </a>
+                <div class="card-text">
+                  Astoria police officer praised for his "selfless act of bravery" on Friday, when he entered a house on
+                  fire to save a baby
+                </div>
+              </div>
+            </div>
             <div class="card mb-3">
               <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
               <div class=" card-body p-0">
@@ -872,7 +955,7 @@
             </div>
             <div class="card mb-3">
               <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
-              <div class=" card-body">
+              <div class="card-body p-0">
                 <a href="#">
                   <h4 class="card-title font-weight-bold">
                     'Heroic' Oregon Police Officer Rescues Baby From Burning Building
@@ -886,79 +969,7 @@
             </div>
             <div class="card mb-3">
               <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
-              <div class=" card-body">
-                <a href="#">
-                  <h4 class="card-title font-weight-bold">
-                    'Heroic' Oregon Police Officer Rescues Baby From Burning Building
-                  </h4>
-                </a>
-                <div class="card-text">
-                  Astoria police officer praised for his "selfless act of bravery" on Friday, when he entered a house on
-                  fire to save a baby
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3">
-              <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
-              <div class=" card-body">
-                <a href="#">
-                  <h4 class="card-title font-weight-bold">
-                    'Heroic' Oregon Police Officer Rescues Baby From Burning Building
-                  </h4>
-                </a>
-                <div class="card-text">
-                  Astoria police officer praised for his "selfless act of bravery" on Friday, when he entered a house on
-                  fire to save a baby
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="card mb-3">
-              <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
-              <div class=" card-body">
-                <a href="#">
-                  <h4 class="card-title font-weight-bold">
-                    'Heroic' Oregon Police Officer Rescues Baby From Burning Building
-                  </h4>
-                </a>
-                <div class="card-text">
-                  Astoria police officer praised for his "selfless act of bravery" on Friday, when he entered a house on
-                  fire to save a baby
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3">
-              <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
-              <div class=" card-body">
-                <a href="#">
-                  <h4 class="card-title font-weight-bold">
-                    'Heroic' Oregon Police Officer Rescues Baby From Burning Building
-                  </h4>
-                </a>
-                <div class="card-text">
-                  Astoria police officer praised for his "selfless act of bravery" on Friday, when he entered a house on
-                  fire to save a baby
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3">
-              <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
-              <div class="card-body">
-                <a href="#">
-                  <h4 class="card-title font-weight-bold">
-                    'Heroic' Oregon Police Officer Rescues Baby From Burning Building
-                  </h4>
-                </a>
-                <div class="card-text">
-                  Astoria police officer praised for his "selfless act of bravery" on Friday, when he entered a house on
-                  fire to save a baby
-                </div>
-              </div>
-            </div>
-            <div class="card mb-3">
-              <img class="card-img-top" src="/assets/images/us-treasury-secretary-steven-mnuchin.jpg" />
-              <div class="card-body">
+              <div class="card-body p-0">
                 <a href="#">
                   <h4 class="card-title font-weight-bold">
                     'Heroic' Oregon Police Officer Rescues Baby From Burning Building
@@ -973,7 +984,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card-caption">
           <h3>
             U.S.
@@ -1029,7 +1040,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card-caption">
           <h3>
             WORLD
@@ -1090,7 +1101,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card-caption">
           <h3>
             BUSINESS
@@ -1142,7 +1153,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card-caption">
           <h3>
             Tech & Science
@@ -1197,7 +1208,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card-caption">
           <h3>
             Culture
@@ -1255,7 +1266,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card-caption">
           <h3>
             Sports
@@ -1313,7 +1324,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card-caption">
           <h3>
             SUBSCRIBE
@@ -1331,7 +1342,7 @@
           </div>
         </div>
       </section>
-      <section class="col-md-12">
+      <section class="col-md-12 d-lg-none">
         <div class="card-caption">
           <h3>
             NEWSLETTER
@@ -1353,7 +1364,7 @@
           </div>
         </div>
       </section>
-      <footer class="col-md-12 my-5">
+      <footer class="col-md-12 my-5 d-lg-none">
         <div class="row d-md-flex justify-content-md-between">
           <img src="./assets/images/logo-red.PNG" class="col-md-4">
           <div class="col-md-3">&copy 2020 NEWSWEEK</div>

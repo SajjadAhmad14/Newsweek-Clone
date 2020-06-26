@@ -17,6 +17,25 @@ body {
   background-color: #f72210;
 }
 
+.navbar .location {
+  color: #ffffff;
+}
+
+.navbar .location a {
+  color: #ffffff;
+}
+
+.navbar .login {
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
 .fa-user {
   color: #ffffff;
   font-size: 20px;
