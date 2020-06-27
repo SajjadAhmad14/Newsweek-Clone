@@ -36,6 +36,33 @@ body {
   text-decoration: none;
 }
 
+.nav-2 {
+  margin-top: 80px;
+}
+
+.nav-2 a {
+  color: #000000;
+  font-size: 19px;
+}
+
+.nav-2 a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.nav-2 input {
+  pointer-events: initial;
+}
+
+.fa-search {
+  font-size: 20px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
 .fa-user {
   color: #ffffff;
   font-size: 20px;
@@ -55,6 +82,7 @@ body {
   color: rgba(3, 3, 3, 0.4);
   padding: 0 0 5px;
   font-weight: bold;
+  margin-top: 70px;
 }
 
 .card {
