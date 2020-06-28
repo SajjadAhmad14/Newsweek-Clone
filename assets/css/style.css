@@ -18,15 +18,56 @@ body {
 }
 
 .navbar .location {
-  color: #ffffff;
+  color: #fff;
+}
+
+footer a {
+  color: #666;
+}
+
+.nav-2 a {
+  color: #000;
+  font-size: 19px;
+  font-weight: bolder;
+  padding: 0 4px 0 0;
+  border-right: 1px solid rgb(180, 179, 179);
+}
+
+.nav-3 a {
+  color: #b1acac;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 0 10px 0 0;
+}
+
+.card-top a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.card a {
+  color: #000;
+}
+
+.more a {
+  color: #000;
+}
+
+.my-turn a {
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #000;
+  text-decoration: none;
 }
 
 .navbar .location a {
-  color: #ffffff;
+  color: #fff;
 }
 
 .navbar .login {
-  color: #ffffff;
+  color: #fff;
   font-size: 20px;
   padding: 10px;
   font-weight: bolder;
@@ -38,14 +79,6 @@ body {
 
 .nav-2 {
   margin-top: 80px;
-}
-
-.nav-2 a {
-  color: #000000;
-  font-size: 19px;
-  font-weight: bolder;
-  padding: 0 4px 0 0;
-  border-right: 1px solid rgb(180, 179, 179);
 }
 
 .nav-2 a:hover {
@@ -62,25 +95,18 @@ body {
   color: rgb(231, 230, 230);
 }
 
-.nav-3 a {
-  color: #b1acac;
-  font-size: 19px;
-  font-weight: bold;
-  padding: 0 10px 0 0;
-}
-
 .nav-3 a:hover {
   color: #f72210;
   text-decoration: none;
 }
 
 .fa-user {
-  color: #ffffff;
+  color: #fff;
   font-size: 20px;
 }
 
 .btn.btn-primary {
-  color: #000000;
+  color: #000;
   font-size: 13px;
   font-weight: bolder;
   background-color: #ffe400;
@@ -94,16 +120,51 @@ body {
   margin-top: 0;
 }
 
-#debate a {
-  color: rgba(3, 3, 3, 0.4);
-}
-
-#debate a:hover {
+.card-top a:hover {
   color: rgba(3, 3, 3, 0.4);
   text-decoration: none;
 }
 
+.card a:hover {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.debate a:hover {
+  color: #f92859;
+  text-decoration: none;
+}
+
+.debate-2 a:hover {
+  text-decoration: none;
+  color: #f92859;
+}
+
+.opinion a:hover {
+  color: #f92859;
+  text-decoration: none;
+}
+
+.more a:hover {
+  text-decoration-color: #f92859;
+}
+
+.my-turn a:hover {
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
+}
+
+#debate a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
 #opinion a {
+  color: rgba(3, 3, 3, 0.4);
+  text-decoration: none;
+}
+
+#debate a:hover {
   color: rgba(3, 3, 3, 0.4);
   text-decoration: none;
 }
@@ -119,27 +180,8 @@ body {
   margin-top: 70px;
 }
 
-.card-top a {
-  color: rgba(3, 3, 3, 0.4);
-}
-
-.card-top a:hover {
-  color: rgba(3, 3, 3, 0.4);
-  text-decoration: none;
-}
-
 .card {
   background-color: #f4f5f7;
-}
-
-.card a {
-  color: #000000;
-}
-
-.card a:hover {
-  color: #000000;
-  text-decoration: underline;
-  text-decoration-color: #f72210;
 }
 
 .card-text {
@@ -160,19 +202,9 @@ body {
   padding: 10px 0 4px;
 }
 
-.debate a:hover {
-  color: #f92859;
-  text-decoration: none;
-}
-
 .debate-2 {
   border-bottom: 5px solid #1c87fb;
   padding: 10px 0 4px;
-}
-
-.debate-2 a:hover {
-  text-decoration: none;
-  color: #f92859;
 }
 
 .card-image {
@@ -182,13 +214,8 @@ body {
 }
 
 .opinion {
-  color: #000000;
+  color: #000;
   border-bottom: 1px solid rgb(197, 191, 191);
-}
-
-.opinion a:hover {
-  color: #f92859;
-  text-decoration: none;
 }
 
 .sponsor {
@@ -200,26 +227,6 @@ body {
   left: 0;
   z-index: 2;
   font-size: 17px;
-}
-
-.more {
-  color: #000000;
-  border-top: 1px solid rgb(197, 191, 191);
-}
-
-.more a {
-  text-decoration-color: #f92859;
-  text-decoration: none;
-}
-
-.my-turn a {
-  color: rgba(3, 3, 3, 0.5);
-  text-decoration: none;
-}
-
-.my-turn a:hover {
-  color: rgba(3, 3, 3, 0.5);
-  text-decoration: none;
 }
 
 .top-5 {
@@ -241,7 +248,7 @@ body {
 
 .card-caption .f-head {
   background-color: #f72210;
-  color: #ffffff;
+  color: #fff;
   font-weight: bolder;
 }
 
@@ -250,25 +257,15 @@ body {
   color: #f72210;
 }
 
-
 .btn.btn-danger {
   width: 100px;
   margin: 0 auto;
   background-color: #f72210;
-  color: #ffffff;
+  color: #fff;
   border-radius: 0;
 }
 
 .fab {
   font-size: 25px;
   padding: 5px;
-}
-
-footer a {
-  color: #666666;
-}
-
-footer a:hover {
-  color: #000000;
-  text-decoration: none;
 }
