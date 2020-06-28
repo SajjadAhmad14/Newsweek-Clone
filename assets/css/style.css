@@ -90,6 +90,10 @@ body {
   pointer-events: none;
 }
 
+#stories {
+  margin-top: 0;
+}
+
 .card-top {
   color: rgba(3, 3, 3, 0.4);
   padding: 0 0 5px;
