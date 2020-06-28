@@ -94,11 +94,38 @@ body {
   margin-top: 0;
 }
 
+#debate a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+#debate a:hover {
+  color: rgba(3, 3, 3, 0.4);
+  text-decoration: none;
+}
+
+#opinion a {
+  color: rgba(3, 3, 3, 0.4);
+  text-decoration: none;
+}
+
+#opinion a:hover {
+  color: rgba(3, 3, 3, 0.4);
+}
+
 .card-top {
   color: rgba(3, 3, 3, 0.4);
   padding: 0 0 5px;
   font-weight: bold;
   margin-top: 70px;
+}
+
+.card-top a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.card-top a:hover {
+  color: rgba(3, 3, 3, 0.4);
+  text-decoration: none;
 }
 
 .card {
