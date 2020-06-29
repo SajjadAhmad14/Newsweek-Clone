@@ -177,7 +177,7 @@ footer a:hover {
   color: rgba(3, 3, 3, 0.4);
   padding: 0 0 5px;
   font-weight: bold;
-  margin-top: 70px;
+  margin-top: 90px;
 }
 
 .card {
@@ -211,6 +211,7 @@ footer a:hover {
   width: 63px;
   height: 63px;
   padding-right: 10px;
+  margin-right: 10px;
 }
 
 .opinion {
