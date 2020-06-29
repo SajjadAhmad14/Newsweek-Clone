@@ -13,6 +13,8 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
+
+
 .navbar {
   background-color: #f72210;
 }
@@ -177,7 +179,14 @@ footer a:hover {
   color: rgba(3, 3, 3, 0.4);
   padding: 0 0 5px;
   font-weight: bold;
+}
+
+.top-sections {
   margin-top: 90px;
+}
+
+#feature {
+  margin-top: 0;
 }
 
 .card {
