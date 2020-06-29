@@ -15,7 +15,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/SajjadAhmad14/Newsweek-Clone/019b896404448388d7299f195142b53ed266f6f5/index.html)
+[Live Demo Link](https://rawcdn.githack.com/SajjadAhmad14/Newsweek-Clone/f28f2b17ddaa6bc089760278b320911afe74eac5/index.html)
 
 To get a local copy up and running follow these simple example steps.
 
