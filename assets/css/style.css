@@ -9,6 +9,7 @@ body {
   border: none;
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 
 .container-fluid {
@@ -27,6 +28,20 @@ body {
   color: #fff;
 }
 
+@media screen and (min-width: 767px) {
+  .main-logo {
+    width: 132px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 1023px) {
+  .main-logo {
+    width: 100%;
+    height: auto;
+  }
+}
+
 footer a {
   color: #666;
 }
@@ -35,8 +50,10 @@ footer a {
   color: #000;
   font-size: 19px;
   font-weight: bolder;
-  padding: 0 4px 0 0;
+  padding: 0 10px 0 10px;
+  margin: 0 auto;
   border-right: 1px solid rgb(180, 179, 179);
+  height: auto;
 }
 
 .nav-3 a {
@@ -84,7 +101,7 @@ footer a:hover {
 }
 
 .nav-2 {
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .nav-2 a:hover {
@@ -226,14 +243,17 @@ footer a:hover {
 }
 
 .card-image {
-  width: 63px;
-  height: 63px;
+  width: 95px;
+  height: 95px;
   padding-right: 10px;
   margin-right: 10px;
 }
 
 .opinion {
   color: #000;
+}
+
+.opinion-border {
   border-bottom: 1px solid rgb(197, 191, 191);
 }
 
@@ -248,10 +268,12 @@ footer a:hover {
   font-size: 17px;
 }
 
-.top-5 {
-  background-color: #f4f5f7;
-  border: 3px sild blue;
-  font-size: 19px;
+.form-style-1 {
+  margin-left: 155px;
+}
+
+.form-style {
+  margin-left: 170px;
 }
 
 .img-logo {
@@ -261,6 +283,13 @@ footer a:hover {
 }
 
 .btn.btn-secondary {
+  font-size: 30px;
+  background: #f72210;
+  padding: 0;
+  border: none;
+}
+
+.btn.btn-secondary:hover {
   font-size: 30px;
   background: #f72210;
 }
@@ -277,14 +306,39 @@ footer a:hover {
 }
 
 .btn.btn-danger {
-  width: 100px;
+  width: 120px;
+  font-weight: bolder;
   margin: 0 auto;
   background-color: #f72210;
   color: #fff;
-  border-radius: 0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn.btn-danger:hover {
+  background-color: #f72210;
+  color: #fff;
 }
 
 .fab {
   font-size: 25px;
   padding: 5px;
+}
+
+.sub-image {
+  width: 170px;
+  height: 227px;
+}
+
+.sub-image2 {
+  width: 170px;
+  height: 227px;
+  position: absolute;
+  left: 100px;
+  top: 12px;
+}
+
+.news-image {
+  width: 191px;
+  height: 254px;
 }
