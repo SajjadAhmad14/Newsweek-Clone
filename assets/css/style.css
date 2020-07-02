@@ -14,6 +14,8 @@ body {
 
 .container-fluid {
   font-family: "Roboto Condensed", sans-serif;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 .container {
@@ -28,7 +30,7 @@ body {
   color: #fff;
 }
 
-@media screen and (min-width: 767px) {
+@media screen and (max-width: 991px) {
   .main-logo {
     width: 132px;
     height: 20px;
@@ -237,6 +239,14 @@ footer a:hover {
   position: relative;
   bottom: 20px;
   color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.card .side-link:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 .debate {
@@ -266,14 +276,12 @@ footer a:hover {
 }
 
 .sponsor {
-  position: absolute;
+  position: relative;
+  top: 246px;
   color: #3581f4;
   background-color: rgba(255, 255, 255, 0.9);
-  padding: 8px 15px 9px;
-  top: 190px;
-  left: 0;
-  z-index: 2;
-  font-size: 17px;
+  font-weight: bolder;
+  padding: 5px;
 }
 
 .form-style-1 {
