@@ -35,7 +35,7 @@ body {
   }
 }
 
-@media screen and (min-width: 1023px) {
+@media screen and (min-width: 992px) {
   .main-logo {
     width: 100%;
     height: auto;
@@ -46,21 +46,33 @@ footer a {
   color: #666;
 }
 
-.nav-2 a {
+.nav-light .navbar-nav .nav-link {
   color: #000;
   font-size: 19px;
   font-weight: bolder;
-  padding: 0 10px 0 10px;
-  margin: 0 auto;
+  padding: 0 20px 0 20px;
   border-right: 1px solid rgb(180, 179, 179);
-  height: auto;
 }
 
-.nav-3 a {
-  color: #b1acac;
+.nav-light .navbar-nav .nav-link:hover {
+  color: #f72210;
+}
+
+.nav-light .form-inline .form-control {
+  padding: 0;
+  width: 60px;
+  height: 24px;
+  border: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
   font-size: 19px;
-  font-weight: bold;
-  padding: 0 10px 0 0;
+  font-weight: bolder;
+  padding: 0 10px 0 10px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f72210;
 }
 
 .card-top a {
@@ -107,10 +119,6 @@ footer a:hover {
 .nav-2 a:hover {
   color: #f72210;
   text-decoration: none;
-}
-
-.nav-2 input {
-  pointer-events: initial;
 }
 
 .fa-search {
