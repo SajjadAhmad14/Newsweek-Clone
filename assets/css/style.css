@@ -249,6 +249,15 @@ footer a:hover {
   text-decoration: none;
 }
 
+.culture {
+  position: relative;
+  bottom: 10px;
+  color: #333333;
+  background-color: #C2D4D7;
+  font-weight: bolder;
+  padding: 5px;
+}
+
 .debate {
   border-top: 5px solid #f92859;
   border-bottom: 3px double #d9d9d9;
