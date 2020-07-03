@@ -62,11 +62,6 @@ footer a {
   border-right: 1px solid rgb(180, 179, 179);
 }
 
-/* .nav-light .navbar-nav {
-  display: flex;
-  justify-content: space-between;
-} */
-
 .nav-light .navbar-nav .nav-link:hover {
   color: #f72210;
 }
@@ -318,8 +313,8 @@ footer a:hover {
 }
 
 .btn.btn-secondary:hover {
-  font-size: 30px;
   background: #f72210;
+
 }
 
 .card-caption .f-head {
@@ -361,6 +356,7 @@ footer a:hover {
 .fab {
   font-size: 25px;
   padding: 5px;
+  color: #666
 }
 
 .sub-image {
@@ -385,4 +381,9 @@ footer a:hover {
   color: #f72210;
   font-size: 19px;
   font-weight: bolder;
+  padding: 5px;
+}
+
+.contrast {
+  background-color: #f4f5f6;
 }
