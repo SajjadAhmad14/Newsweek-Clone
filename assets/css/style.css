@@ -251,11 +251,10 @@ footer a:hover {
 
 .culture {
   position: relative;
-  bottom: 10px;
-  color: #333333;
+  bottom: 21px;
+  color: #333;
   background-color: #C2D4D7;
   font-weight: bolder;
-  padding: 5px;
 }
 
 .debate {
@@ -282,15 +281,6 @@ footer a:hover {
 
 .opinion-border {
   border-bottom: 1px solid rgb(197, 191, 191);
-}
-
-.sponsor {
-  position: relative;
-  top: 246px;
-  color: #3581f4;
-  background-color: rgba(255, 255, 255, 0.9);
-  font-weight: bolder;
-  padding: 5px;
 }
 
 .form-style-1 {
