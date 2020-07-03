@@ -49,12 +49,18 @@ footer a {
 }
 
 .nav-light .navbar-nav .nav-link {
+  white-space: nowrap;
   color: #000;
   font-size: 19px;
   font-weight: bolder;
   padding: 0 20px 0 20px;
   border-right: 1px solid rgb(180, 179, 179);
 }
+
+/* .nav-light .navbar-nav {
+  display: flex;
+  justify-content: space-between;
+} */
 
 .nav-light .navbar-nav .nav-link:hover {
   color: #f72210;
@@ -283,12 +289,14 @@ footer a:hover {
   border-bottom: 1px solid rgb(197, 191, 191);
 }
 
-.form-style-1 {
-  margin-left: 155px;
+.sign-up h2 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #333;
 }
 
-.form-style {
-  margin-left: 170px;
+.sign-up button {
+  font-size: 15px;
 }
 
 .img-logo {
@@ -298,7 +306,7 @@ footer a:hover {
 }
 
 .btn.btn-secondary {
-  font-size: 30px;
+  font-size: 25px;
   background: #f72210;
   padding: 0;
   border: none;
@@ -315,8 +323,18 @@ footer a:hover {
   font-weight: bolder;
 }
 
-.card-caption .s-head,
-.card-caption h3 {
+.card-caption a {
+  font-size: 22px;
+  color: #f72210;
+  font-weight: bolder;
+}
+
+.card-caption a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.card-caption .s-head {
   color: #f72210;
 }
 
@@ -356,4 +374,10 @@ footer a:hover {
 .news-image {
   width: 191px;
   height: 254px;
+}
+
+.subscribe {
+  color: #f72210;
+  font-size: 19px;
+  font-weight: bolder;
 }
