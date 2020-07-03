@@ -44,6 +44,11 @@ body {
   }
 }
 
+.img-1 {
+  width: 241px;
+  height: 45px;
+}
+
 footer a {
   color: #666;
 }
