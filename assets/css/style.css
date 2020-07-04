@@ -35,6 +35,7 @@ body {
     width: 132px;
     height: 20px;
   }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -372,16 +373,23 @@ footer a:hover {
   top: 12px;
 }
 
-.news-image {
-  width: 191px;
-  height: 254px;
-}
-
 .subscribe {
   color: #f72210;
   font-size: 19px;
   font-weight: bolder;
   padding: 5px;
+}
+
+.news-image1 {
+  width: 191px;
+  height: 233px;
+  object-fit: cover;
+}
+
+.news-image2 {
+  width: 191px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .contrast {
