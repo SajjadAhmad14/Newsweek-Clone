@@ -290,6 +290,7 @@ footer a:hover {
   height: 95px;
   padding-right: 10px;
   margin-right: 10px;
+  object-fit: cover;
 }
 
 .opinion {
