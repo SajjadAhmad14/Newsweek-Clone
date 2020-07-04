@@ -22,6 +22,7 @@ body {
 
 .navbar {
   background-color: #f72210;
+
 }
 
 .navbar .location {
@@ -41,6 +42,11 @@ body {
     width: 100%;
     height: auto;
   }
+
+  .navbar {
+    margin: 0 10px;
+  }
+
 }
 
 .img-1 {
