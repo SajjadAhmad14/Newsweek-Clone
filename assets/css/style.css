@@ -22,7 +22,6 @@ body {
 
 .navbar {
   background-color: #f72210;
-
 }
 
 .navbar .location {
@@ -34,7 +33,6 @@ body {
     width: 132px;
     height: 20px;
   }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -46,7 +44,6 @@ body {
   .navbar {
     margin: 0 10px;
   }
-
 }
 
 .img-1 {
