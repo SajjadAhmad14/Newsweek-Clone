@@ -342,6 +342,13 @@ footer a:hover {
   padding: 10px 0 4px;
 }
 
+.debate-image {
+  width: 63px;
+  height: 63px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
 .card-image {
   width: 95px;
   height: 95px;
