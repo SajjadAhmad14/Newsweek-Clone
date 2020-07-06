@@ -190,6 +190,22 @@ footer a:hover {
   }
 }
 
+@media screen and (min-width: 1200px) {
+  .navbar {
+    margin: 0 20px;
+  }
+
+  .nav-1 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .nav2 {
+    margin-left: 10px;
+  }
+
+}
+
 .img-1 {
   width: 241px;
   height: 45px;
