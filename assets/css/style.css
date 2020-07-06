@@ -24,6 +24,51 @@ body {
   background-color: #f72210;
 }
 
+.nav-1 {
+  margin-top: 90px;
+}
+
+.nav-1 li {
+  list-style-type: none;
+}
+
+.nav-1 li input {
+  width: 50px;
+}
+
+.nav-1 li a {
+  font-size: 19px;
+  color: #000;
+  font-weight: bolder;
+  border-right: 1px solid rgb(211, 211, 211);
+  padding: 0 20px 0 0;
+  white-space: nowrap;
+}
+
+.nav-1 li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.nav2 {
+  margin-top: 0;
+}
+
+.nav2 li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.nav2 li a {
+  color: #807f84;
+  font-weight: bolder;
+}
+
+.nav2 li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
 .navbar .location {
   color: #fff;
 }
@@ -42,7 +87,16 @@ body {
   }
 
   .navbar {
-    margin: 0 10px;
+    margin: 0 20px;
+  }
+
+  .nav-1 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .nav2 {
+    margin-left: 10px;
   }
 }
 
@@ -140,6 +194,7 @@ footer a:hover {
 .fa-search {
   font-size: 20px;
   color: rgb(231, 230, 230);
+
 }
 
 .nav-3 a:hover {
