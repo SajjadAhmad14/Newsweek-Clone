@@ -36,6 +36,33 @@ body {
   width: 50px;
 }
 
+footer a {
+  color: #666;
+}
+
+.card-top a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.card a {
+  color: #000;
+}
+
+.more a {
+  color: #000;
+}
+
+.my-turn a {
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
+}
+
+.card-caption a {
+  font-size: 22px;
+  color: #f72210;
+  font-weight: bolder;
+}
+
 .nav-1 li a {
   font-size: 19px;
   color: #000;
@@ -43,6 +70,74 @@ body {
   border-right: 1px solid rgb(211, 211, 211);
   padding: 0 20px 0 0;
   white-space: nowrap;
+}
+
+.nav2 li a {
+  color: #807f84;
+  font-weight: bolder;
+}
+
+footer a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar .location a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+.nav-2 a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.nav-3 a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.card-top a:hover {
+  color: rgba(3, 3, 3, 0.4);
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.debate a:hover {
+  color: #f92859;
+  text-decoration: none;
+}
+
+.debate-2 a:hover {
+  text-decoration: none;
+  color: #f92859;
+}
+
+.opinion a:hover {
+  color: #f92859;
+  text-decoration: none;
+}
+
+.more a:hover {
+  text-decoration-color: #f92859;
+}
+
+.my-turn a:hover {
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
+}
+
+.card-caption a:hover {
+  color: #f72210;
+  text-decoration: none;
 }
 
 .nav-1 li a:hover {
@@ -57,11 +152,6 @@ body {
 .nav2 li {
   list-style-type: none;
   margin: 0 5px;
-}
-
-.nav2 li a {
-  color: #807f84;
-  font-weight: bolder;
 }
 
 .nav2 li a:hover {
@@ -105,10 +195,6 @@ body {
   height: 45px;
 }
 
-footer a {
-  color: #666;
-}
-
 .nav-light .navbar-nav .nav-link {
   white-space: nowrap;
   color: #000;
@@ -139,38 +225,6 @@ footer a {
   color: #f72210;
 }
 
-.card-top a {
-  color: rgba(3, 3, 3, 0.4);
-}
-
-.card a {
-  color: #000;
-}
-
-.more a {
-  color: #000;
-}
-
-.my-turn a {
-  color: rgba(3, 3, 3, 0.5);
-  text-decoration: none;
-}
-
-.card-caption a {
-  font-size: 22px;
-  color: #f72210;
-  font-weight: bolder;
-}
-
-footer a:hover {
-  color: #000;
-  text-decoration: none;
-}
-
-.navbar .location a {
-  color: #fff;
-}
-
 .navbar .login {
   color: #fff;
   font-size: 20px;
@@ -178,28 +232,13 @@ footer a:hover {
   font-weight: bolder;
 }
 
-.navbar a:hover {
-  text-decoration: none;
-}
-
 .nav-2 {
   margin-top: 90px;
-}
-
-.nav-2 a:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .fa-search {
   font-size: 20px;
   color: rgb(231, 230, 230);
-
-}
-
-.nav-3 a:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 .fa-user {
@@ -225,46 +264,6 @@ footer a:hover {
 
 #stories {
   margin-top: 0;
-}
-
-.card-top a:hover {
-  color: rgba(3, 3, 3, 0.4);
-  text-decoration: none;
-}
-
-.card a:hover {
-  color: #000;
-  text-decoration: underline;
-  text-decoration-color: #f72210;
-}
-
-.debate a:hover {
-  color: #f92859;
-  text-decoration: none;
-}
-
-.debate-2 a:hover {
-  text-decoration: none;
-  color: #f92859;
-}
-
-.opinion a:hover {
-  color: #f92859;
-  text-decoration: none;
-}
-
-.more a:hover {
-  text-decoration-color: #f92859;
-}
-
-.my-turn a:hover {
-  color: rgba(3, 3, 3, 0.5);
-  text-decoration: none;
-}
-
-.card-caption a:hover {
-  color: #f72210;
-  text-decoration: none;
 }
 
 #debate a {
