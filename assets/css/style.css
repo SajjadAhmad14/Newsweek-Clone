@@ -16,10 +16,6 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.container {
-  font-family: "Roboto Condensed", sans-serif;
-}
-
 .navbar {
   background-color: #f72210;
 }
@@ -44,10 +40,7 @@ footer a {
   color: rgba(3, 3, 3, 0.4);
 }
 
-.card a {
-  color: #000;
-}
-
+.card a,
 .more a {
   color: #000;
 }
@@ -90,11 +83,7 @@ footer a:hover {
   text-decoration: none;
 }
 
-.nav-2 a:hover {
-  color: #f72210;
-  text-decoration: none;
-}
-
+.nav-2 a:hover,
 .nav-3 a:hover {
   color: #f72210;
   text-decoration: none;
@@ -111,16 +100,8 @@ footer a:hover {
   text-decoration-color: #f72210;
 }
 
-.debate a:hover {
-  color: #f92859;
-  text-decoration: none;
-}
-
-.debate-2 a:hover {
-  text-decoration: none;
-  color: #f92859;
-}
-
+.debate a:hover,
+.debate-2 a:hover,
 .opinion a:hover {
   color: #f92859;
   text-decoration: none;
@@ -282,16 +263,11 @@ footer a:hover {
   margin-top: 0;
 }
 
-#debate a {
+.debate-title a {
   color: rgba(3, 3, 3, 0.4);
 }
 
-#opinion a {
-  color: rgba(3, 3, 3, 0.4);
-  text-decoration: none;
-}
-
-#debate a:hover {
+.debate-title a:hover {
   color: rgba(3, 3, 3, 0.4);
   text-decoration: none;
 }
