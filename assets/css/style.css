@@ -1,0 +1,451 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+* {
+  border: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.navbar {
+  background-color: #f72210;
+}
+
+.nav-1 {
+  margin-top: 90px;
+}
+
+.nav-1 li {
+  list-style-type: none;
+}
+
+.nav-1 li input {
+  width: 50px;
+}
+
+footer a {
+  color: #666;
+}
+
+.card-top a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.card a,
+.more a {
+  color: #000;
+}
+
+.my-turn a {
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
+}
+
+.card-caption a {
+  font-size: 22px;
+  color: #f72210;
+  font-weight: bolder;
+}
+
+.debate-title a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.nav-1 li a {
+  font-size: 19px;
+  color: #000;
+  font-weight: bolder;
+  border-right: 1px solid rgb(211, 211, 211);
+  padding: 0 20px 0 0;
+  white-space: nowrap;
+}
+
+.nav2 li a {
+  color: #807f84;
+  font-weight: bolder;
+}
+
+footer a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.navbar .location a {
+  color: #fff;
+}
+
+.navbar a:hover {
+  text-decoration: none;
+}
+
+.nav-2 a:hover,
+.nav-3 a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.card-top a:hover {
+  color: rgba(3, 3, 3, 0.4);
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #000;
+  text-decoration: underline;
+  text-decoration-color: #f72210;
+}
+
+.debate a:hover,
+.debate-2 a:hover,
+.opinion a:hover {
+  color: #f92859;
+  text-decoration: none;
+}
+
+.more a:hover {
+  text-decoration-color: #f92859;
+}
+
+.my-turn a:hover {
+  color: rgba(3, 3, 3, 0.5);
+  text-decoration: none;
+}
+
+.card-caption a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.debate-title a:hover {
+  color: rgba(3, 3, 3, 0.4);
+  text-decoration: none;
+}
+
+.nav-1 li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.nav2 {
+  margin-top: 0;
+}
+
+.nav2 li {
+  list-style-type: none;
+  margin: 0 5px;
+}
+
+.nav2 li a:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.navbar .location {
+  color: #fff;
+}
+
+@media screen and (max-width: 991px) {
+  .main-logo {
+    width: 132px;
+    height: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .main-logo {
+    width: 100%;
+    height: auto;
+  }
+
+  .navbar {
+    margin: 0 20px;
+  }
+
+  .nav-1 {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .nav2 {
+    margin-left: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .navbar {
+    margin: 0 20px;
+  }
+
+  .nav-1 {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 120px;
+  }
+
+  .nav2 {
+    margin-left: 10px;
+  }
+}
+
+.img-1 {
+  width: 241px;
+  height: 45px;
+}
+
+.nav-light .navbar-nav .nav-link {
+  white-space: nowrap;
+  color: #000;
+  font-size: 19px;
+  font-weight: bolder;
+  padding: 0 20px 0 20px;
+  border-right: 1px solid rgb(180, 179, 179);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  font-size: 19px;
+  font-weight: bolder;
+  padding: 0 10px 0 10px;
+}
+
+.nav-light .navbar-nav .nav-link:hover {
+  color: #f72210;
+}
+
+.nav-light .form-inline .form-control {
+  padding: 0;
+  width: 60px;
+  height: 24px;
+  border: none;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #f72210;
+}
+
+.navbar .login {
+  color: #fff;
+  font-size: 20px;
+  padding: 10px;
+  font-weight: bolder;
+}
+
+.nav-2 {
+  margin-top: 90px;
+}
+
+.fa-search {
+  font-size: 20px;
+  color: rgb(231, 230, 230);
+}
+
+.fa-user {
+  color: #fff;
+  font-size: 20px;
+}
+
+.btn.btn-primary {
+  color: #000;
+  font-size: 13px;
+  font-weight: bolder;
+  background-color: #ffe400;
+  border: none;
+  padding: 0 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn.btn-primary:hover {
+  color: #000;
+  background-color: #ffe400;
+}
+
+#stories {
+  margin-top: 0;
+}
+
+#opinion a:hover {
+  color: rgba(3, 3, 3, 0.4);
+}
+
+.card-top {
+  color: rgba(3, 3, 3, 0.4);
+  padding: 0 0 5px;
+  font-weight: bold;
+}
+
+.top-sections {
+  margin-top: 90px;
+}
+
+#feature {
+  margin-top: 0;
+}
+
+.card {
+  background-color: #f4f5f7;
+}
+
+.card-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  padding-bottom: 10px;
+}
+
+.card .side-link {
+  position: relative;
+  bottom: 20px;
+  color: #f72210;
+  background-color: rgba(255, 255, 255, 0.9);
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.card .side-link:hover {
+  color: #f72210;
+  text-decoration: none;
+}
+
+.culture {
+  position: relative;
+  bottom: 21px;
+  color: #333;
+  background-color: #c2d4d7;
+  font-weight: bolder;
+}
+
+.debate {
+  border-top: 5px solid #f92859;
+  border-bottom: 3px double #d9d9d9;
+  padding: 10px 0 4px;
+}
+
+.debate-2 {
+  border-bottom: 5px solid #1c87fb;
+  padding: 10px 0 4px;
+}
+
+.debate-image {
+  width: 63px;
+  height: 63px;
+  padding-right: 10px;
+  margin-right: 10px;
+}
+
+.card-image {
+  width: 95px;
+  height: 95px;
+  padding-right: 10px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.opinion {
+  color: #000;
+}
+
+.opinion-border {
+  border-bottom: 1px solid rgb(197, 191, 191);
+}
+
+.sign-up h2 {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #333;
+}
+
+.sign-up button {
+  font-size: 15px;
+}
+
+.img-logo {
+  background-color: #f72210;
+  height: 40px;
+  width: 50px;
+}
+
+.btn.btn-secondary {
+  font-size: 25px;
+  background: #f72210;
+  padding: 0;
+  border: none;
+}
+
+.btn.btn-secondary:hover {
+  background: #f72210;
+}
+
+.card-caption .f-head {
+  background-color: #f72210;
+  color: #fff;
+  font-weight: bolder;
+}
+
+.card-caption .s-head {
+  color: #f72210;
+}
+
+.btn.btn-danger {
+  width: 120px;
+  font-weight: bolder;
+  margin: 0 auto;
+  background-color: #f72210;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.btn.btn-danger:hover {
+  background-color: #f72210;
+  color: #fff;
+}
+
+.fab {
+  font-size: 25px;
+  padding: 5px;
+  color: #666;
+}
+
+.sub-image {
+  width: 170px;
+  height: 227px;
+}
+
+.sub-image2 {
+  width: 170px;
+  height: 227px;
+  position: absolute;
+  left: 100px;
+  top: 12px;
+}
+
+.subscribe {
+  color: #f72210;
+  font-size: 19px;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.news-image1 {
+  width: 191px;
+  height: 233px;
+  object-fit: cover;
+}
+
+.news-image2 {
+  width: 191px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.contrast {
+  background-color: rgb(250, 248, 248);
+}
