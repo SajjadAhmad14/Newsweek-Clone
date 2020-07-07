@@ -56,6 +56,10 @@ footer a {
   font-weight: bolder;
 }
 
+.debate-title a {
+  color: rgba(3, 3, 3, 0.4);
+}
+
 .nav-1 li a {
   font-size: 19px;
   color: #000;
@@ -118,6 +122,11 @@ footer a:hover {
 
 .card-caption a:hover {
   color: #f72210;
+  text-decoration: none;
+}
+
+.debate-title a:hover {
+  color: rgba(3, 3, 3, 0.4);
   text-decoration: none;
 }
 
@@ -261,15 +270,6 @@ footer a:hover {
 
 #stories {
   margin-top: 0;
-}
-
-.debate-title a {
-  color: rgba(3, 3, 3, 0.4);
-}
-
-.debate-title a:hover {
-  color: rgba(3, 3, 3, 0.4);
-  text-decoration: none;
 }
 
 #opinion a:hover {
